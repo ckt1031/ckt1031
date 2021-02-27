@@ -14,7 +14,7 @@ Hi there 👋, I am RealKoolisw, a cool coding and devloping learner from Hong K
 3. [Discord-CNAME-Forward](https://github.com/RealKoolisw/discord-server-forward-url): Forward your discord server invite URL with your own CNAME domains or subdomains.
 4. [Url-Shortener](https://github.com/RealKoolisw/shortenurl-web): Shorten URL with a friendly web GUI based in Express.js and Nodejs.
 
-![Koolisw Stats](https://github-readme-stats.vercel.app/api?username=realkoolisw&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Koolisw Stats](https://github-status-mczgjv1g6-koolisw.vercel.app/api?username=realkoolisw&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 <!--
 **RealKoolisw/RealKoolisw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
