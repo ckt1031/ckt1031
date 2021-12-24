@@ -5,9 +5,7 @@ I am a cool coding and devloping learner from Hong Kong, I wanted to make more c
 ## :lock: Projects
 
 1. [DraconianJSBot](https://github.com/RealKoolisw/DraconianJSBot): An epic discord bot with many functions, which serving 200k users.
-2. [DiscordBotKit](https://github.com/RealKoolisw/DiscordBotKit): A Discord Bot Module Kit for everyone to start their own discord bot easily.
-3. [Discord-CNAME-Forward](https://github.com/RealKoolisw/discord-server-forward-url): Forward your discord server invite URL with your own CNAME domains or subdomains.
-4. [Url-Shortener](https://github.com/RealKoolisw/shortenurl-web): Shorten URL with a friendly web GUI based in Express.js and Nodejs.
+2. Coming soon.....
 
 ![Koolisw Stats](https://github-readme-stats-koolisw.vercel.app/api?username=realkoolisw&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
