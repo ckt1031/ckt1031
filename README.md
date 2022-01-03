@@ -5,7 +5,7 @@ I am a cool coding and devloping learner from Hong Kong, I wanted to make more c
 ## :lock: Projects
 
 1. [DraconianJSBot](https://github.com/RealKoolisw/DraconianJSBot): An epic discord bot with many functions, which serving 200k users.
-2. Coming soon.....
+2. [discord-recaptcha](https://github.com/RealKoolisw/discord-captcha): Amazing and quick Discord server verification method without using a lot time time.
 
 ![Koolisw Stats](https://github-readme-stats-koolisw.vercel.app/api?username=realkoolisw&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
