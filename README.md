@@ -6,7 +6,7 @@ I am a cool coding and devloping learner from Hong Kong, I wanted to make more c
 
 1. [Draconian Bot](https://github.com/RealKoolisw/DraconianJSBot): An epic Dscord bot with variable and numerous features.
 
-![Koolisw Stats](https://github-readme-stats-koolisw.vercel.app/api?username=cktsun1031&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Koolisw Stats](https://github-readme-stats-cktsun1031.vercel.app/api?username=cktsun1031&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 ## Investigation
 
