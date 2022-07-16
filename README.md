@@ -1,6 +1,7 @@
 # Hi, I am **_cksun1031_** :wave:
 
-Actually I am a student in Hong Kong, at the same time sticking with coding. I am making open source projects with React, Vuejs, Flutter, mobile applications or servers. I enjoy playing with React, React Native, Golang and TypeScript. Please ask if you have any inqueries.
+Actually I am a student in Hong Kong, at the same time sticking with coding. I enjoy playing with React, React Native, Golang and TypeScript.\
+❤ Please ask if you have any inqueries.
 
 ## :lock: Projects
 
