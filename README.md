@@ -1,14 +1,14 @@
-## Hi, I am Koolisw <img src="https://cdn.jsdelivr.net/gh/RealKoolisw/image@main/assets/366AC744-A6F9-4653-B771-C715645A0C1C.gif" width="30px">
+# Hi, I am ***cksun1031*** :wave:
 
-I am a cool coding and devloping learner from Hong Kong, I wanted to make more cool and fun Github projects for everyone. Mostly best in javascript.
+Actually I am a student in Hong Kong, at the same time sticking with coding. I am making open source projects with React, Vuejs, Flutter, mobile applications or servers. I enjoy playing with React, React Native, Golang and TypeScript. Please ask if you have any inqueries.
 
 ## :lock: Projects
 
 1. [Draconian Bot](https://github.com/RealKoolisw/DraconianJSBot): An epic Dscord bot with variable and numerous features.
 
-![Koolisw Stats](https://github-readme-stats-cktsun1031.vercel.app/api?username=cktsun1031&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+[![Top Langs](https://github-readme-stats-cktsun1031.vercel.app/api/top-langs/?username=cktsun1031&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-## Investigation
+## Know more
 
-- Playing: [Go](https://go.dev/), [Typescript](https://www.typescriptlang.org/), [Dart](https://dart.dev/), Python, Javascript
-- Watching manual: C, C++, Rust, Java, C#, Kotlin, Object-C, Swift
+Official Website: [cktidy.xyz](cktidy.xyz)\
+Sharing My Life: ☺ [Instagram](https://www.instagram.com/cktidy.1031)
