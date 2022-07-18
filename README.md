@@ -6,7 +6,6 @@ Actually I am a student in Hong Kong, at the same time sticking with coding. I e
 ## :lock: Projects
 
 1. [cktidy.xyz](https://github.com/cktsun1031/cktidy.xyz): A personal website based on Nextjs.
-2. [Draconian Bot](https://github.com/RealKoolisw/DraconianJSBot): An epic Dscord bot with variable and numerous features.
 
 [![Top Langs](https://github-readme-stats-cktsun1031.vercel.app/api/top-langs/?username=cktsun1031&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
