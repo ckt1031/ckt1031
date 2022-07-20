@@ -1,7 +1,10 @@
 # Hi, I am **_cksun1031_** :wave:
 
-Actually I am a student in Hong Kong, at the same time sticking with coding. I enjoy playing with React, React Native, Golang and TypeScript.\
+I am a secondary school's student in Hong Kong, at the same time sticking with coding.\
+I enjoy playing with React, React Native, Golang and TypeScript.\
 ❤ Please ask if you have any inqueries.
+
+![](https://komarev.com/ghpvc/?username=cktsun1031&style=for-the-badge)
 
 ## :lock: Projects
 
@@ -12,4 +15,4 @@ Actually I am a student in Hong Kong, at the same time sticking with coding. I e
 ## Know more
 
 Official Website: [cktidy.xyz](cktidy.xyz)\
-Sharing My Life: ☺ [Instagram](https://www.instagram.com/cktidy.1031)
+Sharing My Life: [Instagram](https://www.instagram.com/cktidy.1031)
