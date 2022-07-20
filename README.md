@@ -16,15 +16,11 @@
   <div>
     <a href="#">
       <img
-        src="https://github-readme-stats-cktsun1031.vercel.app/api/top-langs/?username=cktsun1031&show_icons=true&layout=compact&theme=dark&count_private=true"
-        width="225"
-      />
+        src="https://github-readme-stats-cktsun1031.vercel.app/api/top-langs/?username=cktsun1031&show_icons=true&layout=compact&theme=dark&count_private=true"/>
     </a>
     <a href="#"
       ><img
-        src="https://github-readme-stats-cktsun1031.vercel.app/api?username=cktsun1031&show_icons=true&count_private=true&theme=dark"
-        width="225"
-    /></a>
+        src="https://github-readme-stats-cktsun1031.vercel.app/api?username=cktsun1031&show_icons=true&count_private=true&theme=dark"/></a>
   </div>
 </div>
 
