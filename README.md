@@ -12,6 +12,9 @@
     <img
       src="https://komarev.com/ghpvc/?username=cktsun1031&style=for-the-badge"
     />
+    <img
+      src="https://wakatime.com/badge/user/9572a5d0-14fa-46cd-b731-e206c683c634.svg?style=for-the-badge"
+    />
   </div>
   <div>
     <a href="#">
