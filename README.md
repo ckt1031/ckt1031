@@ -1,4 +1,4 @@
-<h2 align="center">Hello, I am cksun1031 :wave:</h2>
+<h2 align="center">Hello, I am ckt1031 :wave:</h2>
 
 <p align="center">
   I am a secondary school's student in Hong Kong, at the same time sticking with
