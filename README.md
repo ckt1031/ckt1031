@@ -17,10 +17,6 @@
     />
   </div>
   <div align="center" style="display: flex; flex-direction: row">
-    <a href="#">
-      <img
-        src="https://github-readme-stats-cktsun1031.vercel.app/api/top-langs/?username=ckt1031&show_icons=true&layout=compact&theme=dark&count_private=true"/>
-    </a>
     <a href="#"
       ><img
         src="https://github-readme-stats-cktsun1031.vercel.app/api?username=ckt1031&show_icons=true&count_private=true&theme=dark"/></a>
