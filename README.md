@@ -8,11 +8,8 @@
 </p>
 
 <div align="center" style="display: flex; flex-direction: column">
-  <div align="center" style="display: flex; flex-direction: row">
-    <a href="#"
-      ><img
-        src="https://github-readme-stats-cktsun1031.vercel.app/api?username=ckt1031&show_icons=true&count_private=true&theme=dark"/></a>
+    <img src="https://github-readme-stats-cktsun1031.vercel.app/api?username=ckt1031&show_icons=true&count_private=true&theme=dark" />
 </div>
 
 <h3 align="center">Why Programming?</h3>
-<em>“Programming is the new literacy of the digital age, and like every other form of literacy, it empowers those who learn it to change their lives and the world around them.”</em> - Mark Zuckerberg
+<em>“Programming is the new literacy of the digital age, and like every other form of literacy, it empowers those who learn it to change their lives and the world around them.”</em>
