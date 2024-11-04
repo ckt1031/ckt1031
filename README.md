@@ -8,5 +8,5 @@
 </p>
 
 <div align="center" style="display: flex; flex-direction: column">
-    <img src="https://github-readme-stats.tsun1031.xyz/api?username=ckt1031&show_icons=true&count_private=true&theme=dark"></img>
+    <img src="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&count_private=true&theme=dark"></img>
 </div>
