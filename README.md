@@ -11,10 +11,10 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&count_private=true&theme=dark">
+      srcset="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&border_radius=8&theme=dracula">
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&count_private=true&theme=default">
-    <img alt="ckt1031's GitHub stats" src="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&count_private=true&theme=default">
+      srcset="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&border_radius=8">
+    <img alt="ckt1031's GitHub stats" src="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&border_radius=8">
   </picture>
 </p>
