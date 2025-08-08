@@ -1,0 +1,41 @@
+name: Metrics
+
+on:
+  # Schedule daily updates
+  schedule:
+    - cron: "0 15 * * *"
+  # (optional) Run workflow manually
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Install rclone
+        run: curl https://rclone.org/install.sh | sudo bash
+        
+      - name: Setup rclone config
+        run: |
+          # Create rclone config directory
+          mkdir -p ~/.config/rclone
+          
+          # Decode base64 encoded rclone config
+          echo "${{ secrets.RCLONE_CONFIG_BASE64 }}" | base64 -d > ~/.config/rclone/rclone.conf
+
+      - name: Generate Metrics SVG
+        run: |
+          docker run --rm \
+            --env INPUT_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
+            --env INPUT_USER=ckt1031 \
+            --env INPUT_PLUGIN_LANGUAGES=yes \
+            --env INPUT_PLUGIN_LANGUAGES_INDEPTH="yes" \
+            --env INPUT_PLUGIN_LANGUAGES_IGNORED="css, tsx, jsx, html, md, mdx" \
+            --volume=/tmp:/renders \
+            ghcr.io/lowlighter/metrics:latest
+      - name: Upload to S3
+        run: |
+          # Change "r2-common" to your specific rclone config identifier
+          # Change "common" to your AWS bucket name
+          rclone copy /tmp/github-metrics.svg r2-common:common/github --s3-no-check-bucket
