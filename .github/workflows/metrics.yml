@@ -3,8 +3,10 @@ name: Metrics
 on:
   # Schedule daily updates
   schedule:
-    - cron: "0 15 * * *"
-  # (optional) Run workflow manually
+    # Runs at 18:00 UTC
+    # Runs at 02:00 HKT
+    - cron: "0 18 * * *"
+  # Run workflow manually
   workflow_dispatch:
 
 jobs:
@@ -15,16 +17,41 @@ jobs:
     steps:
       - name: Install rclone
         run: curl https://rclone.org/install.sh | sudo bash
+
+      - name: Cache rclone
+        uses: actions/cache@v3
+        with:
+          path: /usr/bin/rclone
+          key: ${{ runner.os }}-rclone-v1
         
       - name: Setup rclone config
+        # Create the rclone config directory and decode the base64 secrets
+        # Note: Ensure RCLONE_CONFIG_BASE64 is your base64 encoded rclone.conf file
         run: |
-          # Create rclone config directory
           mkdir -p ~/.config/rclone
-          
-          # Decode base64 encoded rclone config
           echo "${{ secrets.RCLONE_CONFIG_BASE64 }}" | base64 -d > ~/.config/rclone/rclone.conf
 
+      - name: Cache Docker layers
+        # Cache the Docker data directory to speed up subsequent image pulls/runs.
+        # This caches the layers of previously downloaded images.
+        uses: actions/cache@v3
+        with:
+          # The path where Docker stores its data (images, layers, etc.) on Ubuntu.
+          path: /var/lib/docker
+          # The cache key. We use runner.os for platform specificity and a static string
+          # 'lowlighter-metrics-latest-v1' to identify this cache.
+          # This key won't change when 'latest' updates, but Docker itself handles
+          # downloading new layers when a cached 'latest' image is outdated.
+          key: ${{ runner.os }}-docker-lowlighter-metrics-latest-v1
+          # Restore keys. If the exact 'key' doesn't match, try to restore a broader cache.
+          restore-keys: |
+            ${{ runner.os }}-docker-lowlighter-metrics-latest-
+            ${{ runner.os }}-docker-
+
       - name: Generate Metrics SVG
+        # Run the ghcr.io/lowlighter/metrics Docker container.
+        # Docker will check if 'latest' is updated and only pull new layers if necessary,
+        # otherwise, it uses the cached image layers.
         run: |
           docker run --rm \
             --env INPUT_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
@@ -34,8 +61,10 @@ jobs:
             --env INPUT_PLUGIN_LANGUAGES_IGNORED="css, tsx, jsx, html, md, mdx" \
             --volume=/tmp:/renders \
             ghcr.io/lowlighter/metrics:latest
+            
       - name: Upload to S3
+        # Use rclone to copy the generated SVG to your S3-compatible storage (R2/Cloudflare, AWS S3, etc.)
+        # Make sure 'r2-common' matches the remote name in your rclone.conf
+        # And 'common' is the bucket name.
         run: |
-          # Change "r2-common" to your specific rclone config identifier
-          # Change "common" to your AWS bucket name
           rclone copy /tmp/github-metrics.svg r2-common:common/github --s3-no-check-bucket
