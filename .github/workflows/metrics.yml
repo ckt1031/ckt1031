@@ -17,12 +17,6 @@ jobs:
     steps:
       - name: Install rclone
         run: curl https://rclone.org/install.sh | sudo bash
-
-      - name: Cache rclone
-        uses: actions/cache@v3
-        with:
-          path: /usr/bin/rclone
-          key: ${{ runner.os }}-rclone-v1
         
       - name: Setup rclone config
         # Create the rclone config directory and decode the base64 secrets
