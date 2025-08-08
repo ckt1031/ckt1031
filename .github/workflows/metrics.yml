@@ -24,6 +24,11 @@ jobs:
         run: |
           mkdir -p ~/.config/rclone
           echo "${{ secrets.RCLONE_CONFIG_BASE64 }}" | base64 -d > ~/.config/rclone/rclone.conf
+ 
+      - name: Fix Docker permissions for caching (using chown)
+        # Verify the user name is 'runner' - it usually is on GitHub-hosted runners
+        # You can add a `whoami` step before this to confirm if needed.
+        run: sudo chown -R runner:runner /var/lib/docker
 
       - name: Cache Docker layers
         # Cache the Docker data directory to speed up subsequent image pulls/runs.
