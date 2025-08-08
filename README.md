@@ -1,20 +1,8 @@
-<h2 align="center">Hey there, I'm ckt1031 😃</h2>
+# Hello! I am ckt1031
 
-<p align="center">
-  I'm an undergraduate student from Hong Kong, with an unbridled passion for programming and a solid fascination in both frontend and backend development.
-  <br />
-  <br />
-  I absolutely love diving into new technologies, exploring the depths of their capabilities, and finding ingenious solutions to intricate problems.
-</p>
+- Studying **Electronic Engineering** at the **Hong Kong University of Science and Technology (HKUST)**.
+- Passionate about AI, modern technologies and web development.
+- Having myself on [tsun1031.xyz](https://tsun1031.xyz)
+- Contact me via [me@tsun1031.xyz](mailto:me@tsun1031.xyz)
 
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&border_radius=8&theme=dracula">
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&border_radius=8">
-    <img alt="ckt1031's GitHub stats" src="https://github-readme-stats.ckt1031.workers.dev/api?username=ckt1031&show_icons=true&border_radius=8">
-  </picture>
-</p>
+![GitHub Metrics](https://r2-common.tsun1031.xyz/github/github-metrics.svg)
