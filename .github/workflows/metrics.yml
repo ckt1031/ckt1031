@@ -24,28 +24,6 @@ jobs:
         run: |
           mkdir -p ~/.config/rclone
           echo "${{ secrets.RCLONE_CONFIG_BASE64 }}" | base64 -d > ~/.config/rclone/rclone.conf
- 
-      - name: Fix Docker permissions for caching (using chown)
-        # Verify the user name is 'runner' - it usually is on GitHub-hosted runners
-        # You can add a `whoami` step before this to confirm if needed.
-        run: sudo chown -R runner:runner /var/lib/docker
-
-      - name: Cache Docker layers
-        # Cache the Docker data directory to speed up subsequent image pulls/runs.
-        # This caches the layers of previously downloaded images.
-        uses: actions/cache@v3
-        with:
-          # The path where Docker stores its data (images, layers, etc.) on Ubuntu.
-          path: /var/lib/docker
-          # The cache key. We use runner.os for platform specificity and a static string
-          # 'lowlighter-metrics-latest-v1' to identify this cache.
-          # This key won't change when 'latest' updates, but Docker itself handles
-          # downloading new layers when a cached 'latest' image is outdated.
-          key: ${{ runner.os }}-docker-lowlighter-metrics-latest-v1
-          # Restore keys. If the exact 'key' doesn't match, try to restore a broader cache.
-          restore-keys: |
-            ${{ runner.os }}-docker-lowlighter-metrics-latest-
-            ${{ runner.os }}-docker-
 
       - name: Generate Metrics SVG
         # Run the ghcr.io/lowlighter/metrics Docker container.
