@@ -14,4 +14,4 @@ And many fun side and commercial projects...
 
 ## Metrics
 
-![GitHub Metrics](https://r2-common.tsun1031.xyz/github/github-metrics.svg)
+![GitHub Metrics](https://assets.tsun1031.xyz/github/github-metrics.svg)
